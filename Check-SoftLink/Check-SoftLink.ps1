@@ -1,3 +1,12 @@
+#Check-SoftLink():
+#Use to check all softlink in C: and return a array 
+#
+#Array:
+#3*i+0:Source folder name 
+#3*i+1:destination folder name 
+#3*i+2:type( Junction or Symbolic link)
+#
+#
 function Check-SoftLink(){ 
 
     [array]$softLinkAry=@()
